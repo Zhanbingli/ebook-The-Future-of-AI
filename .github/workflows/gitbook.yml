@@ -9,10 +9,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 12
       - run: npm install -g npm@6
       - run: npm install -g gitbook-cli
-      - run: gitbook install
       - run: gitbook build
       - uses: peaceiris/actions-gh-pages@v4
         with:
