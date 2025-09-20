@@ -16,5 +16,7 @@
 * [Chapter 11: The Spatial Intelligence Revolution](chapters/chapter-11-the-spatial-intelligence-revolution.md)
 * [Chapter 12: Microsoft's AI Transformation](chapters/chapter-12-microsoft-s-ai-transformation.md)
 * [Chapter 13: The Future of OpenAI](chapters/chapter-13-the-future-of-openai.md)
+* [Chapter 14: Synthesis and Convergence](chapters/chapter-14-synthesis-and-convergence.md)
+* [Chapter 15: Why Startup Win in The AI era](chapters/chapter-15- why-startups-win-in-the-AI-era.md)
 * [Epilogue: Synthesizing the Future](epilogue-synthesizing-the-future.md)
 * [Expanded Conclusion: The Convergence of Transformation](expanded-conclusion.md)

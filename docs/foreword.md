@@ -26,6 +26,6 @@ Most importantly, these leaders demonstrate that the AI future is not something 
 
 ------
 
-*The Editor*
+*The Editor*:Lizhanbing | Claude | Codex
 
 ------

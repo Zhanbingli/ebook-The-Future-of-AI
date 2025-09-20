@@ -74,10 +74,4 @@ Most importantly, this future remains to be built. The opportunities described b
 
 The revolution is not coming—it is here. The question is not whether AI will transform every industry and workflow, but who will lead that transformation and in what direction. The insights shared in this collection provide a roadmap, but the journey belongs to those who choose to embark upon it.
 
-
-
-I can see you've added several more transcripts from the AI Startup School series. Let me continue expanding the book with these additional chapters, maintaining the same high editorial quality and thematic consistency. 
-
-Here are the additional chapters:
-
 ------
