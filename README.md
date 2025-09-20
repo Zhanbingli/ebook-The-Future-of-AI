@@ -11,20 +11,20 @@ This repository contains the GitBook source for the anthology "The Future of AI"
 
 ## Getting started
 
-1. Install Node.js (LTS) and npm if you have not already.
-2. Install the GitBook CLI globally: `npm install -g gitbook-cli`.
-3. From the project root, run `gitbook install` to pull any required plugins (none are specified yet, but the command is harmless).
+1. Install Node.js 20 LTS (includes npm) if you have not already.
+2. From the project root, run `npm ci` to install dependencies (or `npm install` when developing locally).
+3. Use the scripts below to preview or build as needed.
 
 ## Local preview
 
-Run `gitbook serve` to build the book and open a preview at `http://localhost:4000`.
+Run `npm run serve` to build the book and open a preview at `http://localhost:4000`.
 
 ## Static build
 
-Run `gitbook build` to generate the static website in the `_book/` directory for deployment to GitHub Pages, Netlify, or any static host.
+Run `npm run gitbook` (alias for `npx honkit build`) to generate the static website in the `_book/` directory for deployment to GitHub Pages, Netlify, or any static host.
 
 ## Updating content
 
 - Edit or replace the files under `docs/chapters/` to update individual interviews.
 - Update `docs/SUMMARY.md` if you add, remove, or rename sections so navigation stays in sync.
-- Regenerate the book with `gitbook serve` or `gitbook build` to verify formatting before publishing.
+- Regenerate the book with `npm run serve` or `npm run gitbook` to verify formatting before publishing.
