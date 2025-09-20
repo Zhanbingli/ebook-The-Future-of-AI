@@ -3,8 +3,9 @@
   "description": "Talks and analyses from AI founders and researchers compiled into a GitBook.",
   "language": "en",
   "gitbook": "3.2.3",
+  "root": "./docs",
   "structure": {
-    "readme": "docs/index.md",
+    "readme": "README.md",
     "summary": "SUMMARY.md"
   },
   "plugins": []

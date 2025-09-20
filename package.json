@@ -1,0 +1,12 @@
+{
+  "name": "ebook-yc",
+  "private": true,
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve",
+    "gitbook": "honkit build"
+  },
+  "devDependencies": {
+    "honkit": "^6.1.4"
+  }
+}

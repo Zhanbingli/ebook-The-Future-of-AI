@@ -4,9 +4,9 @@ This repository contains the GitBook source for the anthology "The Future of AI"
 
 ## Project layout
 
-- `book.json` defines the GitBook metadata and points to the primary entry file at `docs/index.md`.
-- `SUMMARY.md` lists every chapter in reading order and drives the left-hand navigation.
-- `docs/index.md` provides the title page; additional sections (foreword, epilogue, conclusion) live directly in `docs/`.
+- `book.json` defines the GitBook metadata and sets `docs/` as the content root for Honkit/GitBook.
+- `docs/SUMMARY.md` lists every chapter in reading order and drives the left-hand navigation.
+- `docs/README.md` provides the title page; additional sections (foreword, epilogue, conclusion) live directly in `docs/`.
 - `docs/chapters/` holds one Markdown file per numbered chapter, already split from the source manuscript.
 
 ## Getting started
@@ -26,5 +26,5 @@ Run `gitbook build` to generate the static website in the `_book/` directory for
 ## Updating content
 
 - Edit or replace the files under `docs/chapters/` to update individual interviews.
-- Update `SUMMARY.md` if you add, remove, or rename sections so navigation stays in sync.
+- Update `docs/SUMMARY.md` if you add, remove, or rename sections so navigation stays in sync.
 - Regenerate the book with `gitbook serve` or `gitbook build` to verify formatting before publishing.
