@@ -1,0 +1,11 @@
+{
+  "title": "The Future of AI: Insights from Industry Leaders",
+  "description": "Talks and analyses from AI founders and researchers compiled into a GitBook.",
+  "language": "en",
+  "gitbook": "3.2.3",
+  "structure": {
+    "readme": "docs/index.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": []
+}
