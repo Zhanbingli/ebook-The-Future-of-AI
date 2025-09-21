@@ -20,5 +20,7 @@
 * [Chapter 15: Why Startup Win in The AI era](chapters/chapter-15- why-startups-win-in-the-AI-era.md)
 * [Chapter 16: Andrej Karpathy: Software Is Changing (Again)](chapters/chapter-16-Software-in-ai.md)
 * [Chapter 17: Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful](chapters/chapter-17-digital-superintelligence.md)
+* [Chapter 18: Dylan Field: Scaling Figma and the Future of Design](chapters/chapter-18-dylan-field.md)
+* [Chapter 19: Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students](chapters/chapter-19-michael-truell.md)
 * [Epilogue: Synthesizing the Future](epilogue-synthesizing-the-future.md)
 * [Expanded Conclusion: The Convergence of Transformation](expanded-conclusion.md)
