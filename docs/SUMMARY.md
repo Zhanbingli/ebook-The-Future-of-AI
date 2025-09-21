@@ -18,5 +18,7 @@
 * [Chapter 13: The Future of OpenAI](chapters/chapter-13-the-future-of-openai.md)
 * [Chapter 14: Synthesis and Convergence](chapters/chapter-14-synthesis-and-convergence.md)
 * [Chapter 15: Why Startup Win in The AI era](chapters/chapter-15- why-startups-win-in-the-AI-era.md)
+* [Chapter 16: Andrej Karpathy: Software Is Changing (Again)](chapters/chapter-16-Software-in-ai.md)
+* [Chapter 17: Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful](chapters/chapter-17-digital-superintelligence.md)
 * [Epilogue: Synthesizing the Future](epilogue-synthesizing-the-future.md)
 * [Expanded Conclusion: The Convergence of Transformation](expanded-conclusion.md)
