@@ -1,0 +1,715 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Chapter 23: Andrew Ng: Building Faster with AI · The Future of AI: Insights from Industry Leaders</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.1.4">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter-24-françois-chollet.html" />
+    
+    
+    <link rel="prev" href="chapter-22-chelsea-finn.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Title Page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../foreword.html">
+            
+                <a href="../foreword.html">
+            
+                    
+                    Foreword
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../table-of-contents.html">
+            
+                <a href="../table-of-contents.html">
+            
+                    
+                    Table of Contents
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="chapter-01-the-art-of-scaling.html">
+            
+                <a href="chapter-01-the-art-of-scaling.html">
+            
+                    
+                    Chapter 1: The Art of Scaling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter-02-the-science-of-scaling.html">
+            
+                <a href="chapter-02-the-science-of-scaling.html">
+            
+                    
+                    Chapter 2: The Science of Scaling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter-03-intelligence-in-motion.html">
+            
+                <a href="chapter-03-intelligence-in-motion.html">
+            
+                    
+                    Chapter 3: Intelligence in Motion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="chapter-04-ai-revolutionizing-discovery.html">
+            
+                <a href="chapter-04-ai-revolutionizing-discovery.html">
+            
+                    
+                    Chapter 4: AI Revolutionizing Discovery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="chapter-05-the-search-revolution.html">
+            
+                <a href="chapter-05-the-search-revolution.html">
+            
+                    
+                    Chapter 5: The Search Revolution
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="chapter-06-building-faster.html">
+            
+                <a href="chapter-06-building-faster.html">
+            
+                    
+                    Chapter 6: Building Faster
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="chapter-07-the-creative-imperative.html">
+            
+                <a href="chapter-07-the-creative-imperative.html">
+            
+                    
+                    Chapter 7: The Creative Imperative
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="chapter-08-the-code-generation-revolution.html">
+            
+                <a href="chapter-08-the-code-generation-revolution.html">
+            
+                    
+                    Chapter 8: The Code Generation Revolution
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="chapter-09-software-is-changing-again.html">
+            
+                <a href="chapter-09-software-is-changing-again.html">
+            
+                    
+                    Chapter 9: Software is Changing (Again)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="chapter-10-digital-superintelligence-and-multiplanetary-life.html">
+            
+                <a href="chapter-10-digital-superintelligence-and-multiplanetary-life.html">
+            
+                    
+                    Chapter 10: Digital Superintelligence and Multiplanetary Life
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="chapter-11-the-spatial-intelligence-revolution.html">
+            
+                <a href="chapter-11-the-spatial-intelligence-revolution.html">
+            
+                    
+                    Chapter 11: The Spatial Intelligence Revolution
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="chapter-12-microsoft-s-ai-transformation.html">
+            
+                <a href="chapter-12-microsoft-s-ai-transformation.html">
+            
+                    
+                    Chapter 12: Microsoft's AI Transformation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="chapter-13-the-future-of-openai.html">
+            
+                <a href="chapter-13-the-future-of-openai.html">
+            
+                    
+                    Chapter 13: The Future of OpenAI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="chapter-14-synthesis-and-convergence.html">
+            
+                <a href="chapter-14-synthesis-and-convergence.html">
+            
+                    
+                    Chapter 14: Synthesis and Convergence
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="chapter-15-why-startups-win-in-the-AI-era.md">
+            
+                <span>
+            
+                    
+                    Chapter 15: Why Startup Win in The AI era
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="chapter-16-Software-in-ai.html">
+            
+                <a href="chapter-16-Software-in-ai.html">
+            
+                    
+                    Chapter 16: Andrej Karpathy: Software Is Changing (Again)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="chapter-17-digital-superintelligence.html">
+            
+                <a href="chapter-17-digital-superintelligence.html">
+            
+                    
+                    Chapter 17: Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="chapter-18-dylan-field.html">
+            
+                <a href="chapter-18-dylan-field.html">
+            
+                    
+                    Chapter 18: Dylan Field: Scaling Figma and the Future of Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="chapter-19-michael-truell.html">
+            
+                <a href="chapter-19-michael-truell.html">
+            
+                    
+                    Chapter 19: Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="chapter-20-aravind-srinivas.html">
+            
+                <a href="chapter-20-aravind-srinivas.html">
+            
+                    
+                    Chapter 20: Aravind Srinivas: Perplexity's Race to Build Agentic Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="chapter-21-jared-kaplan.html">
+            
+                <a href="chapter-21-jared-kaplan.html">
+            
+                    
+                    Chapter 21: Anthropic Co-founder Jared Kaplan: Scaling and the Road to Human-Level AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="chapter-22-chelsea-finn.html">
+            
+                <a href="chapter-22-chelsea-finn.html">
+            
+                    
+                    Chapter 22: Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.26" data-path="chapter-23-andrew-ng.html">
+            
+                <a href="chapter-23-andrew-ng.html">
+            
+                    
+                    Chapter 23: Andrew Ng: Building Faster with AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="chapter-24-françois-chollet.html">
+            
+                <a href="chapter-24-françois-chollet.html">
+            
+                    
+                    Chapter 24: François Chollet: How We Get To AGI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="chapter-25-Fei-Fei-Li.html">
+            
+                <a href="chapter-25-Fei-Fei-Li.html">
+            
+                    
+                    Chapter 25: Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../epilogue-synthesizing-the-future.html">
+            
+                <a href="../epilogue-synthesizing-the-future.html">
+            
+                    
+                    Epilogue: Synthesizing the Future
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../expanded-conclusion.html">
+            
+                <a href="../expanded-conclusion.html">
+            
+                    
+                    Expanded Conclusion: The Convergence of Transformation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Chapter 23: Andrew Ng: Building Faster with AI</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="andrew-ng-building-faster-with-ai">Andrew Ng: Building Faster with AI</h1>
+<p>It's great to see all of you here today. Since this is Y Combinator's AI Startup School, I want to share lessons I've learned about building startups at AI Fund. AI Fund is a venture studio where we build an average of one startup per month. As co-founders of these startups, we're deeply involved—writing code, talking to customers, designing features, and determining pricing. We've done many iterations of not just watching others build startups, but actually being in the weeds, building them with entrepreneurs.</p>
+<p>Today I want to share lessons I've learned about building startups, particularly around how this changing AI technology is enabling new possibilities. My focus will be on execution speed—which I believe is a strong predictor of startup success. I have tremendous respect for entrepreneurs and executives who can simply execute quickly, and new AI technology is enabling startups to move much faster than before.</p>
+<h2 id="the-ai-opportunity-stack">The AI Opportunity Stack</h2>
+<p>Many people ask me: "Where are the opportunities for startups?" I think of this as the AI stack. At the lowest level are semiconductor companies, then cloud providers and hyperscalers, then AI foundation model companies. While much of the media excitement has focused on these technology layers, the biggest opportunities are almost certainly at the application layer. This is definitional—applications need to generate enough revenue to pay for the foundation models, cloud services, and semiconductor layers beneath them.</p>
+<p>For whatever reason, media tends to focus less on the application layer, but for those building startups, this is where the largest opportunities exist—though opportunities certainly exist at every layer of the stack.</p>
+<h2 id="the-rise-of-agentic-ai">The Rise of Agentic AI</h2>
+<p>If you ask me about the most important AI trend today, I'd say it's the rise of agentic AI. About a year and a half ago, when I started giving talks about AI agents, I didn't realize that marketers would adopt this term and apply it to everything, which diluted its meaning. But from a technical perspective, agentic AI is both exciting and important because it opens up many more startup opportunities.</p>
+<p>Consider how most of us use large language models—we prompt them to generate output in a linear fashion, like asking someone to write an essay from the first word to the last without ever using backspace. Humans don't do their best writing this way, and neither does AI. Despite this limitation, LLMs perform surprisingly well.</p>
+<p>With agentic workflows, we can ask an AI system to first write an essay outline, then conduct web research and gather relevant information, then write a first draft, then critique and revise that draft, and so on. This creates an iterative workflow where the model thinks, researches, revises, and thinks again. While slower, this delivers much better work product.</p>
+<p>At AI Fund, we've worked on projects ranging from complex compliance document analysis to medical diagnosis to legal document reasoning. We've consistently found that agentic workflows make the difference between something working and not working. Much of the valuable work ahead involves taking existing or new workflows and implementing them as agentic systems.</p>
+<p>This has led to the emergence of a new agentic orchestration layer that helps application builders coordinate multiple calls to the underlying technology stack. While this orchestration layer makes building applications easier, the fundamental conclusion remains: the application layer represents the most valuable part of the stack.</p>
+<h2 id="building-faster-key-principles">Building Faster: Key Principles</h2>
+<p>Let me share the best practices I've learned for helping startups move faster.</p>
+<h3 id="focus-on-concrete-ideas">Focus on Concrete Ideas</h3>
+<p>At AI Fund, we only work on concrete ideas—product concepts specified in enough detail that an engineer can build them. For example, "let's use AI to optimize healthcare assets" is too vague. Different engineers would build completely different things, and because it's not concrete, you can't build it quickly.</p>
+<p>In contrast, "let's write software that lets hospital patients book MRI machine slots online to optimize usage" is concrete. An engineer can build this, and whether it's a good or bad idea, you'll find out quickly. Concrete ideas enable speed.</p>
+<p>Vague ideas tend to receive praise—if you tell friends "we should use AI to optimize healthcare assets," everyone will say it's a great idea. But it's not actually a great idea in the sense of being buildable. When you're vague, you're almost always right, but when you're concrete, you may be right or wrong—and either way, you can discover this quickly.</p>
+<p>Finding good concrete ideas usually requires subject matter expertise—someone who has thought deeply about a problem for a long time. For instance, before starting Coursera, I spent years thinking about online education, talking to users, and developing intuitions about what would make a good EdTech platform. After this extended process of exploring what YC sometimes calls "the idea maze," experts develop intuition that enables rapid decision-making.</p>
+<p>While I work in AI and love data, getting data is often a slow mechanism for making decisions. A subject matter expert with good intuition often provides a much faster mechanism for quality decision-making.</p>
+<h3 id="pursue-one-clear-hypothesis">Pursue One Clear Hypothesis</h3>
+<p>Successful startups typically pursue one very clear hypothesis at any given time—building it out and trying to sell its value proposition. Startups don't have resources to hedge by trying ten things simultaneously. Pick one, commit fully, and if data tells you to abandon it, pivot completely to pursue a totally different concrete idea with equal determination.</p>
+<p>At AI Fund, we pursue one thing with complete determination until the world tells us we're wrong, then we pivot and pursue something entirely different with equal commitment. If every piece of new data causes you to pivot, you probably started from too weak a knowledge base. Finding someone who has thought more deeply about a subject may help you identify a better path forward.</p>
+<h3 id="accelerate-the-build-feedback-loop">Accelerate the Build-Feedback Loop</h3>
+<p>When building applications, one of the biggest risks is customer rejection—not because we can't build what we want, but because we build something nobody cares about. For application startups especially, we build software (an engineering task), get user feedback (a product management task), then iterate based on that feedback. We go around this loop many times, iterating toward product-market fit.</p>
+<p>AI coding assistance is dramatically changing this dynamic. The speed of engineering is increasing rapidly while the cost is decreasing rapidly. This changes how we drive startups through this iteration loop.</p>
+<p>I categorize software development into two buckets. Sometimes we build quick and dirty prototypes to test ideas—a customer service chatbot, AI for processing legal documents, whatever. Other times we write and maintain production software with massive, production-ready codebases.</p>
+<p>For production-quality code, we're maybe 30-50% faster with AI systems (though rigorous data is hard to find). But for building quick and dirty prototypes, we're easily 10 times faster, possibly much more. This is because standalone prototypes require less integration with legacy software and infrastructure, and have lower requirements for reliability, scalability, and security.</p>
+<p>I routinely tell my team to write insecure code when building prototypes that will only run on their laptops. Of course, before shipping to others, make it secure and scalable—but for testing, it's fine. This enables startups to systematically pursue innovation by building 20 prototypes to see what works.</p>
+<h3 id="leverage-the-latest-ai-tools">Leverage the Latest AI Tools</h3>
+<p>The AI coding assistance landscape evolves rapidly. We've seen code autocomplete (popularized by GitHub Copilot), then AI-enabled IDEs like Cursor and Windsurf, and now highly agentic coding assistants. I currently use Claude for coding extensively, though I expect this will change within months as tools continue evolving.</p>
+<p>Being even half a generation behind in tools makes a significant difference compared to using the latest capabilities. My team takes fundamentally different approaches to software engineering now compared to even six months ago.</p>
+<p>One surprising change: we used to think of code as a valuable artifact because it was difficult to create. But as the cost of software engineering decreases, code becomes less valuable as an artifact. I've seen teams completely rebuild codebases three times in a month because it's no longer prohibitively difficult.</p>
+<p>This relates to Jeff Bezos's concept of two-way doors versus one-way doors. Two-way doors are decisions you can reverse relatively cheaply if you change your mind. One-way doors are difficult or costly to reverse. Choosing software architecture used to be a one-way door, but now my team more often builds on one tech stack, then a week later throws it away and rebuilds from scratch on a different stack.</p>
+<h3 id="empower-everyone-to-build-with-ai">Empower Everyone to Build with AI</h3>
+<p>This is a good time to empower everyone to build with AI. Over the past year, many people advised others not to learn coding because AI would automate it. I believe this will be seen as some of the worst career advice ever given. As better tools make software engineering easier, more people should learn to code, not fewer.</p>
+<p>When we moved from punch cards to keyboards and terminals, coding became easier and more people learned to code. When we moved from assembly to high-level languages like COBOL, some people argued we wouldn't need programmers anymore, but this was wrong. Programming languages made coding easier and more people learned to code.</p>
+<p>I have a controversial opinion: it's time for everyone in every job role to learn to code. On my team, my CFO, head of talent, recruiters, and front desk person all know how to code, and I see all of them performing better at their job functions because of this capability. I'm probably ahead of the curve, but I believe empowering everyone to code will make people far more productive.</p>
+<h3 id="understand-that-product-management-becomes-the-bottleneck">Understand That Product Management Becomes the Bottleneck</h3>
+<p>As software engineering becomes much faster, product management work—getting user feedback and deciding what features to build—increasingly becomes the bottleneck. Over the past year, many of my teams have complained that they're bottlenecked on product and design because engineers have become so much faster.</p>
+<p>Three to five years ago, Silicon Valley had rough rules of thumb about product manager to engineer ratios—maybe one PM to four or seven engineers. With engineers becoming much faster while product management work hasn't accelerated at the same rate, I'm seeing this ratio shift dramatically. Yesterday, for the first time, one of my teams proposed having two PMs for every engineer—a complete reversal.</p>
+<p>I'm not sure this is a good idea, but it signals where things are heading. PMs who can code, or engineers with product instincts, often perform better in this environment.</p>
+<h3 id="develop-rapid-feedback-mechanisms">Develop Rapid Feedback Mechanisms</h3>
+<p>Because engineering is accelerating so rapidly, having good tactics for getting rapid feedback helps shape what you should build faster. Here's a portfolio of tactics, ordered from fastest (but less accurate) to slower (but more accurate):</p>
+<ol>
+<li><strong>Look at the product yourself and trust your gut</strong> - If you're a subject matter expert, this is surprisingly effective</li>
+<li><strong>Ask three friends or teammates for feedback</strong> </li>
+<li><strong>Ask three to ten strangers for feedback</strong> - I've learned to identify high foot-traffic locations like hotel lobbies and respectfully approach strangers</li>
+<li><strong>Send prototypes to 100 testers</strong></li>
+<li><strong>A/B test with more users</strong></li>
+</ol>
+<p>Contrary to what many think, A/B testing is now one of the slowest tactics because it takes time to ship and gather statistically significant results.</p>
+<p>When using any tactic beyond the first, don't just use results to pick option A or B. Sit down and analyze the data to improve your instincts and mental models, enabling higher-quality gut decisions in the future.</p>
+<h2 id="why-understanding-ai-creates-competitive-advantage">Why Understanding AI Creates Competitive Advantage</h2>
+<p>Understanding AI actually makes you go faster, and here's why. With mature technologies like mobile, many people understand what mobile apps can do. With mature job roles like sales, marketing, HR, and legal, knowledge of best practices is widely distributed because these fields haven't changed dramatically.</p>
+<p>But AI is an emerging technology. Knowledge of how to implement AI well is not widespread, giving teams that truly understand AI a significant advantage. Things like: What accuracy can you achieve with a customer service chatbot? Should you prompt engineer or fine-tune? How do you achieve low-latency voice responses?</p>
+<p>Making the right technical decision can solve a problem in days, while the wrong decision can lead you down a blind alley for three months. While it might seem like one bit of information can only provide a 2x speed advantage, in practice, flipping the wrong bit doesn't make you twice as slow—it makes you 10 times slower as you chase dead ends.</p>
+<p>Additionally, we now have a tremendous array of AI building blocks: prompting, workflows, evals, guardrails, RAG, voice, async programming, ETL, embeddings, fine-tuning, graph databases, and model integration capabilities. These tools enable building software that was impossible even a year ago.</p>
+<p>I think of this like Lego blocks. With one block, you can build something interesting. With two blocks, you can build something more interesting. As you acquire more building blocks, the number of things you can build grows exponentially. Understanding these building blocks and how to combine them creates enormous opportunities.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Many factors matter for startup success beyond speed, but in the startups AI Fund builds, management team execution speed strongly correlates with success odds. To achieve this speed:</p>
+<ul>
+<li>Work on concrete ideas (but make sure they're good concrete ideas)</li>
+<li>Execute rapid engineering with AI coding assistance</li>
+<li>Develop portfolio of tactics for rapid user feedback</li>
+<li>Stay current with AI technology capabilities</li>
+</ul>
+<p>As an executive, I'm judged on both the speed and quality of my decisions. Both matter, but speed absolutely matters. The shift to AI coding assistance moves the bottleneck to product decisions and user feedback, making rapid feedback mechanisms critical.</p>
+<p>The amount of new things possible to build far exceeds the number of people skilled enough to build them. At the application layer especially, there's significant white space for new solutions. Focus on building products that people truly want and love, then figure out the rest along the way.</p>
+<p>Thank you very much. I'm happy to take questions.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter-22-chelsea-finn.html" class="navigation navigation-prev " aria-label="Previous page: Chapter 22: Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter-24-françois-chollet.html" class="navigation navigation-next " aria-label="Next page: Chapter 24: François Chollet: How We Get To AGI">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 23: Andrew Ng: Building Faster with AI","level":"1.26","depth":1,"next":{"title":"Chapter 24: François Chollet: How We Get To AGI","level":"1.27","depth":1,"path":"chapters/chapter-24-françois-chollet.md","ref":"chapters/chapter-24-françois-chollet.md","articles":[]},"previous":{"title":"Chapter 22: Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery","level":"1.25","depth":1,"path":"chapters/chapter-22-chelsea-finn.md","ref":"chapters/chapter-22-chelsea-finn.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Future of AI: Insights from Industry Leaders","language":"en","gitbook":"3.2.3","description":"Talks and analyses from AI founders and researchers compiled into a GitBook."},"file":{"path":"chapters/chapter-23-andrew-ng.md","mtime":"2025-09-23T01:21:24.530Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-09-23T01:21:32.480Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
