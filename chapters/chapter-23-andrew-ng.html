@@ -309,9 +309,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.18" data-path="chapter-15-why-startups-win-in-the-AI-era.md">
+        <li class="chapter " data-level="1.18" data-path="chapter-15-why-startups-win-in-the-AI-era.html">
             
-                <span>
+                <a href="chapter-15-why-startups-win-in-the-AI-era.html">
             
                     
                     Chapter 15: Why Startup Win in The AI era
@@ -452,7 +452,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.29" data-path="../epilogue-synthesizing-the-future.html">
+        <li class="chapter " data-level="1.29" data-path="chapter-26-Sam-Altman.html">
+            
+                <a href="chapter-26-Sam-Altman.html">
+            
+                    
+                    Chapter 26: Sam Altman on OpenAI's Journey: From AGI Dreams to the Future of Intelligence
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="chapter-27-Satya-Nadella.html">
+            
+                <a href="chapter-27-Satya-Nadella.html">
+            
+                    
+                    Chapter 27: Microsoft's AI Strategy: Satya Nadella on Hyperscaling, Quantum Computing, and the Future of Work
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../epilogue-synthesizing-the-future.html">
             
                 <a href="../epilogue-synthesizing-the-future.html">
             
@@ -465,7 +491,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.30" data-path="../expanded-conclusion.html">
+        <li class="chapter " data-level="1.32" data-path="../expanded-conclusion.html">
             
                 <a href="../expanded-conclusion.html">
             
@@ -523,76 +549,103 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="andrew-ng-building-faster-with-ai">Andrew Ng: Building Faster with AI</h1>
-<p>It's great to see all of you here today. Since this is Y Combinator's AI Startup School, I want to share lessons I've learned about building startups at AI Fund. AI Fund is a venture studio where we build an average of one startup per month. As co-founders of these startups, we're deeply involved—writing code, talking to customers, designing features, and determining pricing. We've done many iterations of not just watching others build startups, but actually being in the weeds, building them with entrepreneurs.</p>
-<p>Today I want to share lessons I've learned about building startups, particularly around how this changing AI technology is enabling new possibilities. My focus will be on execution speed—which I believe is a strong predictor of startup success. I have tremendous respect for entrepreneurs and executives who can simply execute quickly, and new AI technology is enabling startups to move much faster than before.</p>
-<h2 id="the-ai-opportunity-stack">The AI Opportunity Stack</h2>
-<p>Many people ask me: "Where are the opportunities for startups?" I think of this as the AI stack. At the lowest level are semiconductor companies, then cloud providers and hyperscalers, then AI foundation model companies. While much of the media excitement has focused on these technology layers, the biggest opportunities are almost certainly at the application layer. This is definitional—applications need to generate enough revenue to pay for the foundation models, cloud services, and semiconductor layers beneath them.</p>
-<p>For whatever reason, media tends to focus less on the application layer, but for those building startups, this is where the largest opportunities exist—though opportunities certainly exist at every layer of the stack.</p>
+                                <h1 id="building-ai-startups-faster-lessons-from-the-trenches">Building AI Startups Faster: Lessons from the Trenches</h1>
+<p><strong>Date:</strong> July 10, 2025<br></br><strong>Source:</strong> <a href="https://www.youtube.com/watch?v=RNJCfif1dPY" target="_blank">YouTube Talk</a></p>
+<p>It's great to see all of you here today. Since this is billed as Startup School, I want to share some lessons I've learned about building startups at AI Fund. AI Fund is a venture studio where we build an average of one startup per month. Because we co-found these startups, we're deeply involved—writing code, talking to customers, designing features, and determining pricing. We've completed many iterations of not just watching others build startups, but actually being in the trenches, building startups alongside entrepreneurs.</p>
+<p>Today, I want to share the lessons I've learned from building startups, particularly around this rapidly changing AI technology and what it enables. My focus will be on the theme of speed. For those of you looking to build a startup, I believe a strong predictor of a startup's odds of success is execution speed. I have tremendous respect for entrepreneurs and executives who can execute quickly, and new AI technology is enabling startups to move much faster than ever before.</p>
+<h2 id="the-ai-stack-and-where-opportunities-lie">The AI Stack and Where Opportunities Lie</h2>
+<p>Before diving into speed, many people ask me: "Andrew, where are the opportunities for startups?" Here's how I think about the AI stack: at the lowest level are semiconductor companies, then cloud hyperscalers built on top of that, followed by AI foundation model companies. While much of the PR excitement and hype has focused on these technology layers, the biggest opportunities almost by definition must be at the application layer. We need applications to generate even more revenue so they can afford to pay the foundation, cloud, and semiconductor technology layers.</p>
+<p>For whatever reason, media and social media don't talk about the application layer as much, but for those of you building startups, the biggest opportunities almost by definition have to be there—although opportunities certainly exist at all layers of the stack.</p>
 <h2 id="the-rise-of-agentic-ai">The Rise of Agentic AI</h2>
-<p>If you ask me about the most important AI trend today, I'd say it's the rise of agentic AI. About a year and a half ago, when I started giving talks about AI agents, I didn't realize that marketers would adopt this term and apply it to everything, which diluted its meaning. But from a technical perspective, agentic AI is both exciting and important because it opens up many more startup opportunities.</p>
-<p>Consider how most of us use large language models—we prompt them to generate output in a linear fashion, like asking someone to write an essay from the first word to the last without ever using backspace. Humans don't do their best writing this way, and neither does AI. Despite this limitation, LLMs perform surprisingly well.</p>
-<p>With agentic workflows, we can ask an AI system to first write an essay outline, then conduct web research and gather relevant information, then write a first draft, then critique and revise that draft, and so on. This creates an iterative workflow where the model thinks, researches, revises, and thinks again. While slower, this delivers much better work product.</p>
-<p>At AI Fund, we've worked on projects ranging from complex compliance document analysis to medical diagnosis to legal document reasoning. We've consistently found that agentic workflows make the difference between something working and not working. Much of the valuable work ahead involves taking existing or new workflows and implementing them as agentic systems.</p>
-<p>This has led to the emergence of a new agentic orchestration layer that helps application builders coordinate multiple calls to the underlying technology stack. While this orchestration layer makes building applications easier, the fundamental conclusion remains: the application layer represents the most valuable part of the stack.</p>
-<h2 id="building-faster-key-principles">Building Faster: Key Principles</h2>
-<p>Let me share the best practices I've learned for helping startups move faster.</p>
+<p>One thing that's changed dramatically over the past year is what I consider the most important tech trend in AI: the rise of agentic AI. About a year and a half ago, when I started giving talks to convince people that AI agents might be significant, I didn't realize that around last summer, marketers would get hold of this term and use it as a sticker to slap on everything in sight, which somewhat diluted its meaning. But let me share why, from a technical perspective, I think agentic AI is exciting, important, and opens up many more startup opportunities.</p>
+<p>The way most of us use large language models (LLMs) is to prompt them to generate output. We ask the AI to produce something as if we were asking a human to write an essay from the first word to the last word in one go, without ever using backspace. Humans don't do their best writing when forced to type in this linear order, and neither does AI. Despite the difficulty of this linear constraint, our LLMs perform surprisingly well.</p>
+<p>With agentic workflows, we can ask an AI system to first write an essay outline, then conduct web research if needed, fetch relevant web pages for context, write a first draft, read and critique that draft, revise it, and so on. This creates an iterative workflow where the model thinks, researches, revises, and returns to thinking, cycling through this loop multiple times. While slower, it delivers a much better work product.</p>
+<p>For many projects AI Fund has worked on—from parsing complex compliance documents to medical diagnosis to reasoning about complex legal documents—we've found that agentic workflows make the crucial difference between something working versus not working. Much valuable business building still involves taking existing or new workflows and implementing them as agentic workflows.</p>
+<p>To update the AI stack picture: over the past year, a new agentic orchestration layer has emerged that helps application builders orchestrate or coordinate numerous calls to the underlying technology layers. This orchestration layer has made building applications even easier, but I believe the basic conclusion that the application layer must be the most valuable layer of the stack still holds true.</p>
+<h2 id="best-practices-for-startup-speed">Best Practices for Startup Speed</h2>
 <h3 id="focus-on-concrete-ideas">Focus on Concrete Ideas</h3>
-<p>At AI Fund, we only work on concrete ideas—product concepts specified in enough detail that an engineer can build them. For example, "let's use AI to optimize healthcare assets" is too vague. Different engineers would build completely different things, and because it's not concrete, you can't build it quickly.</p>
-<p>In contrast, "let's write software that lets hospital patients book MRI machine slots online to optimize usage" is concrete. An engineer can build this, and whether it's a good or bad idea, you'll find out quickly. Concrete ideas enable speed.</p>
-<p>Vague ideas tend to receive praise—if you tell friends "we should use AI to optimize healthcare assets," everyone will say it's a great idea. But it's not actually a great idea in the sense of being buildable. When you're vague, you're almost always right, but when you're concrete, you may be right or wrong—and either way, you can discover this quickly.</p>
-<p>Finding good concrete ideas usually requires subject matter expertise—someone who has thought deeply about a problem for a long time. For instance, before starting Coursera, I spent years thinking about online education, talking to users, and developing intuitions about what would make a good EdTech platform. After this extended process of exploring what YC sometimes calls "the idea maze," experts develop intuition that enables rapid decision-making.</p>
-<p>While I work in AI and love data, getting data is often a slow mechanism for making decisions. A subject matter expert with good intuition often provides a much faster mechanism for quality decision-making.</p>
-<h3 id="pursue-one-clear-hypothesis">Pursue One Clear Hypothesis</h3>
-<p>Successful startups typically pursue one very clear hypothesis at any given time—building it out and trying to sell its value proposition. Startups don't have resources to hedge by trying ten things simultaneously. Pick one, commit fully, and if data tells you to abandon it, pivot completely to pursue a totally different concrete idea with equal determination.</p>
-<p>At AI Fund, we pursue one thing with complete determination until the world tells us we're wrong, then we pivot and pursue something entirely different with equal commitment. If every piece of new data causes you to pivot, you probably started from too weak a knowledge base. Finding someone who has thought more deeply about a subject may help you identify a better path forward.</p>
-<h3 id="accelerate-the-build-feedback-loop">Accelerate the Build-Feedback Loop</h3>
-<p>When building applications, one of the biggest risks is customer rejection—not because we can't build what we want, but because we build something nobody cares about. For application startups especially, we build software (an engineering task), get user feedback (a product management task), then iterate based on that feedback. We go around this loop many times, iterating toward product-market fit.</p>
-<p>AI coding assistance is dramatically changing this dynamic. The speed of engineering is increasing rapidly while the cost is decreasing rapidly. This changes how we drive startups through this iteration loop.</p>
-<p>I categorize software development into two buckets. Sometimes we build quick and dirty prototypes to test ideas—a customer service chatbot, AI for processing legal documents, whatever. Other times we write and maintain production software with massive, production-ready codebases.</p>
-<p>For production-quality code, we're maybe 30-50% faster with AI systems (though rigorous data is hard to find). But for building quick and dirty prototypes, we're easily 10 times faster, possibly much more. This is because standalone prototypes require less integration with legacy software and infrastructure, and have lower requirements for reliability, scalability, and security.</p>
-<p>I routinely tell my team to write insecure code when building prototypes that will only run on their laptops. Of course, before shipping to others, make it secure and scalable—but for testing, it's fine. This enables startups to systematically pursue innovation by building 20 prototypes to see what works.</p>
-<h3 id="leverage-the-latest-ai-tools">Leverage the Latest AI Tools</h3>
-<p>The AI coding assistance landscape evolves rapidly. We've seen code autocomplete (popularized by GitHub Copilot), then AI-enabled IDEs like Cursor and Windsurf, and now highly agentic coding assistants. I currently use Claude for coding extensively, though I expect this will change within months as tools continue evolving.</p>
-<p>Being even half a generation behind in tools makes a significant difference compared to using the latest capabilities. My team takes fundamentally different approaches to software engineering now compared to even six months ago.</p>
-<p>One surprising change: we used to think of code as a valuable artifact because it was difficult to create. But as the cost of software engineering decreases, code becomes less valuable as an artifact. I've seen teams completely rebuild codebases three times in a month because it's no longer prohibitively difficult.</p>
-<p>This relates to Jeff Bezos's concept of two-way doors versus one-way doors. Two-way doors are decisions you can reverse relatively cheaply if you change your mind. One-way doors are difficult or costly to reverse. Choosing software architecture used to be a one-way door, but now my team more often builds on one tech stack, then a week later throws it away and rebuilds from scratch on a different stack.</p>
-<h3 id="empower-everyone-to-build-with-ai">Empower Everyone to Build with AI</h3>
-<p>This is a good time to empower everyone to build with AI. Over the past year, many people advised others not to learn coding because AI would automate it. I believe this will be seen as some of the worst career advice ever given. As better tools make software engineering easier, more people should learn to code, not fewer.</p>
-<p>When we moved from punch cards to keyboards and terminals, coding became easier and more people learned to code. When we moved from assembly to high-level languages like COBOL, some people argued we wouldn't need programmers anymore, but this was wrong. Programming languages made coding easier and more people learned to code.</p>
-<p>I have a controversial opinion: it's time for everyone in every job role to learn to code. On my team, my CFO, head of talent, recruiters, and front desk person all know how to code, and I see all of them performing better at their job functions because of this capability. I'm probably ahead of the curve, but I believe empowering everyone to code will make people far more productive.</p>
-<h3 id="understand-that-product-management-becomes-the-bottleneck">Understand That Product Management Becomes the Bottleneck</h3>
-<p>As software engineering becomes much faster, product management work—getting user feedback and deciding what features to build—increasingly becomes the bottleneck. Over the past year, many of my teams have complained that they're bottlenecked on product and design because engineers have become so much faster.</p>
-<p>Three to five years ago, Silicon Valley had rough rules of thumb about product manager to engineer ratios—maybe one PM to four or seven engineers. With engineers becoming much faster while product management work hasn't accelerated at the same rate, I'm seeing this ratio shift dramatically. Yesterday, for the first time, one of my teams proposed having two PMs for every engineer—a complete reversal.</p>
-<p>I'm not sure this is a good idea, but it signals where things are heading. PMs who can code, or engineers with product instincts, often perform better in this environment.</p>
-<h3 id="develop-rapid-feedback-mechanisms">Develop Rapid Feedback Mechanisms</h3>
-<p>Because engineering is accelerating so rapidly, having good tactics for getting rapid feedback helps shape what you should build faster. Here's a portfolio of tactics, ordered from fastest (but less accurate) to slower (but more accurate):</p>
+<p>At AI Fund, we focus exclusively on concrete ideas. A concrete product idea is one specified in enough detail that an engineer can build it. For example, "let's use AI to optimize healthcare assets" is not concrete—it's too vague. Different engineers would build completely different things, and because it's not concrete, you can't build it quickly.</p>
+<p>In contrast, "let's write software to let hospitals allow patients to book MRI machine slots online to optimize usage" is concrete. I don't know if this is a good or bad idea, but it is concrete, meaning engineers can build it quickly. If it's a good idea, you'll discover that. If it's not, you'll discover that too. Having concrete ideas buys you speed.</p>
+<p>The deceptive thing for many entrepreneurs is that vague ideas tend to receive kudos. If you tell friends "we should use AI to optimize healthcare assets," everyone will say it's a great idea. But it's not actually a great idea in the sense of being something you can build. When you're vague, you're almost always right, but when you're concrete, you may be right or wrong. Either outcome is fine—we can discover the truth much faster, which is crucial for startups.</p>
+<h3 id="the-power-of-subject-matter-expertise">The Power of Subject Matter Expertise</h3>
+<p>Finding good concrete ideas usually requires someone—perhaps you—who is a subject matter expert to think about a problem for a long time. Before starting Coursera, I spent years thinking about online education, talking to users, and developing intuitions about what would make a good edtech platform. After that long process—what YC sometimes calls "wandering the idea maze"—experts who have deeply considered a problem can make rapid decisions. When you ask such experts whether to build this feature or that feature, their gut instinct, which is instantaneous, can be a surprisingly good proxy for making quality decisions.</p>
+<p>While I work in AI and you might think I'd emphasize data, getting data for many startups is actually a slow mechanism for making decisions. A subject matter expert with good instincts is often a much better mechanism for speedy decision-making.</p>
+<h3 id="the-one-hypothesis-rule">The One Hypothesis Rule</h3>
+<p>At any moment, many successful startups are pursuing one very clear hypothesis they're building out and trying to validate. Startups don't have resources to hedge and try ten things simultaneously. Pick one, pursue it doggedly, and if data tells you to lose faith in that idea, that's perfectly fine. Just pivot immediately to pursue a completely different concrete idea.</p>
+<p>This often describes how AI Fund operates: we pursue one thing with determination until the world tells us we were wrong, then change and pursue a totally different thing with equal determination and doggedness.</p>
+<p>If every piece of new data causes you to pivot, it probably means you're starting from too weak a knowledge base. If every customer conversation completely changes your mind, you likely don't know enough about that sector yet to have a high-quality concrete idea. Finding someone who has thought about a subject longer may put you on a better path to move faster.</p>
+<h2 id="the-build-feedback-loop-revolution">The Build-Feedback Loop Revolution</h2>
+<p>One of the biggest changes in how we build with AI involves rapidly evolving coding assistance and the build-feedback loop. When building applications, one of the biggest risks is customer acceptance—many startups struggle not because they can't build what they want, but because they build something nobody cares about.</p>
+<p>For many application startups (less so for deep tech or technology startups), we build software (an engineering task), get feedback from users (a product management task), then based on user feedback, tweak our views on what to build and return to writing more software. We iterate around this loop many times toward product-market fit.</p>
+<p>With AI coding assistance, rapid engineering is becoming possible in ways that simply weren't feasible before. Engineering speed is increasing rapidly while engineering costs are decreasing rapidly. This changes how we drive startups around this loop.</p>
+<h3 id="the-two-types-of-software-development">The Two Types of Software Development</h3>
+<p>I categorize the software I build into two major buckets:</p>
 <ol>
-<li><strong>Look at the product yourself and trust your gut</strong> - If you're a subject matter expert, this is surprisingly effective</li>
-<li><strong>Ask three friends or teammates for feedback</strong> </li>
-<li><strong>Ask three to ten strangers for feedback</strong> - I've learned to identify high foot-traffic locations like hotel lobbies and respectfully approach strangers</li>
-<li><strong>Send prototypes to 100 testers</strong></li>
-<li><strong>A/B test with more users</strong></li>
+<li><p><strong>Quick and dirty prototypes</strong> to test ideas—build a customer service chatbot, AI to process legal documents, whatever. Build a quick prototype to see if it works.</p>
+</li>
+<li><p><strong>Production software</strong>—maintaining production-ready codebases with all the complexity that entails.</p>
+</li>
 </ol>
-<p>Contrary to what many think, A/B testing is now one of the slowest tactics because it takes time to ship and gather statistically significant results.</p>
-<p>When using any tactic beyond the first, don't just use results to pick option A or B. Sit down and analyze the data to improve your instincts and mental models, enabling higher-quality gut decisions in the future.</p>
-<h2 id="why-understanding-ai-creates-competitive-advantage">Why Understanding AI Creates Competitive Advantage</h2>
-<p>Understanding AI actually makes you go faster, and here's why. With mature technologies like mobile, many people understand what mobile apps can do. With mature job roles like sales, marketing, HR, and legal, knowledge of best practices is widely distributed because these fields haven't changed dramatically.</p>
-<p>But AI is an emerging technology. Knowledge of how to implement AI well is not widespread, giving teams that truly understand AI a significant advantage. Things like: What accuracy can you achieve with a customer service chatbot? Should you prompt engineer or fine-tune? How do you achieve low-latency voice responses?</p>
-<p>Making the right technical decision can solve a problem in days, while the wrong decision can lead you down a blind alley for three months. While it might seem like one bit of information can only provide a 2x speed advantage, in practice, flipping the wrong bit doesn't make you twice as slow—it makes you 10 times slower as you chase dead ends.</p>
-<p>Additionally, we now have a tremendous array of AI building blocks: prompting, workflows, evals, guardrails, RAG, voice, async programming, ETL, embeddings, fine-tuning, graph databases, and model integration capabilities. These tools enable building software that was impossible even a year ago.</p>
-<p>I think of this like Lego blocks. With one block, you can build something interesting. With two blocks, you can build something more interesting. As you acquire more building blocks, the number of things you can build grows exponentially. Understanding these building blocks and how to combine them creates enormous opportunities.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>Many factors matter for startup success beyond speed, but in the startups AI Fund builds, management team execution speed strongly correlates with success odds. To achieve this speed:</p>
+<p>When writing production-quality code, depending on which analyst report you trust (it's hard to find rigorous data), we might be 30-50% faster with AI systems. But for building quick and dirty prototypes, we're not just 50% faster—I think we're easily 10 times faster, maybe much more.</p>
+<p>Several factors contribute to this dramatic speed increase for prototypes: there's less integration with legacy software, infrastructure, and data needed. Requirements for reliability, scalability, and even security are much lower. I know I'm not supposed to tell people to write insecure code, but I routinely tell my team: "Go ahead, write insecure code." If the software only runs on your laptop and you don't plan to maliciously hack your own laptop, insecure code is fine. Of course, once it seems to be working, make it secure before shipping it to anyone else.</p>
+<p>I find that startups are increasingly pursuing innovation by systematically building 20 prototypes to see what works. I know there's some anxiety in AI about many proofs of concept not making it to production, but by driving the cost of proof of concepts low enough, it's actually fine if many don't see the light of day.</p>
+<h3 id="the-evolution-of-ai-coding-tools">The Evolution of AI Coding Tools</h3>
+<p>The AI coding assistance landscape has evolved rapidly. Three or four years ago, we had code autocomplete popularized by GitHub Copilot. Then came Cursor and Windsurf—a generation of AI-enabled IDEs that are great. Starting six or seven months ago, we began seeing a new generation of highly agentic coding assistants. I use Claude Sonnet quite a lot for coding, and Claude Code is fantastic. Since the Claude 4 release, it's become my preference, though ask me again in a few months and I may be using something different. The tools are evolving rapidly.</p>
+<p>This new generation of highly agentic coding assistance is making developer productivity continue to grow. Being even half a generation or one generation behind makes a big difference compared to staying on top of the latest tools. My team takes really different approaches to software engineering now compared to even three or six months ago.</p>
+<h3 id="code-as-a-less-valuable-artifact">Code as a Less Valuable Artifact</h3>
+<p>One surprising development: we're used to thinking of code as a valuable artifact because it was so hard to create. But because the cost of software engineering is plummeting, code is much less valuable than it used to be. I'm on teams where we've completely rebuilt a codebase three times in the past month because it's not that difficult anymore to rebuild a codebase or pick a new data schema.</p>
+<p>You may have heard Jeff Bezos's terminology of "two-way doors" versus "one-way doors." A two-way door is a decision you can make and, if you change your mind, reverse relatively cheaply. A one-way door is a decision that's very costly or difficult to reverse. Choosing the software architecture of your tech stack used to be a one-way door. Once you built on a certain tech stack and set a database schema, it was really hard to change.</p>
+<p>While I don't want to say it's totally a two-way door now, my team will more often build on a certain tech stack, then a week later, change our minds and throw the codebase away to redo it from scratch on a new tech stack. I don't want to overhype this—we don't do it all the time, and there are still costs to redoing work. But my team is rethinking what constitutes a one-way door versus what's now a two-way door because the cost of software engineering is much lower.</p>
+<h2 id="empowering-everyone-to-build-with-ai">Empowering Everyone to Build with AI</h2>
+<p>Going beyond software engineering, I believe this is a good time to empower everyone to build with AI. Over the past year, many people advised others not to learn to code on the grounds that AI would automate it away. I think we'll look back on this as some of the worst career advice ever given. As better tools make software engineering easier, more people should do it, not fewer.</p>
+<p>When the world moved from punch cards to keyboards and terminals, it made coding easier. When we moved from assembly to high-level languages like COBOL, there were actually people arguing that now that we had COBOL, we didn't need programmers anymore. People actually wrote papers to that effect. Of course, that was wrong. Programming languages made it easier to code, and more people learned to code. Text editors, IDEs, AI coding assistants—as coding becomes easier, more people should learn to code.</p>
+<p>I have a controversial opinion: I think it's time for everyone in every job role to learn to code. On my team, my CFO, head of talent, recruiters, and front desk person all know how to code. I see all of them performing better at their job functions because they can code. I'm probably a bit ahead of the curve—most businesses aren't there yet—but in the future, empowering everyone to code will make many people more productive.</p>
+<h3 id="the-importance-of-commanding-computers">The Importance of Commanding Computers</h3>
+<p>When I was teaching "Generative AI for Everyone" on Coursera, we needed to generate background art using Midjourney. One of my team members knew art history, so he could prompt Midjourney with specific genres, palettes, and artistic inspirations, giving him excellent control over generated images. We used all of his generated images. In contrast, I don't know art history, so when I prompted image generation, I could write "please make pretty pictures of robots for me," but I could never achieve the control my collaborator could.</p>
+<p>With computers, one of the most important skills of the future is the ability to tell a computer exactly what you want so it will do it for you. People with deeper understanding of computers will be able to command computers to achieve desired outcomes. Learning to code—not necessarily writing code yourself, but steering AI to code for you—seems like it will remain the best way to do that for a long time.</p>
+<h2 id="the-product-management-bottleneck">The Product Management Bottleneck</h2>
+<p>With software engineering becoming much faster, I'm seeing interesting dynamics where product management work—getting user feedback and deciding what features to build—is increasingly becoming the bottleneck. Many of my teams have started complaining that they're bottlenecked on product engineering and design because the engineers have gotten so much faster.</p>
+<p>Three to five years ago, Silicon Valley had somewhat suspicious but nonetheless typical rules of thumb: one product manager to four engineers, or one PM to seven engineers. These were standard PM-to-engineer ratios. With engineers becoming much faster while product management work isn't becoming faster at the same pace, I'm seeing this ratio shift.</p>
+<p>Just yesterday, for the first time when planning headcount for a project, a team proposed not one PM to four engineers, but one PM to 0.5 engineers—essentially twice as many PMs as engineers. I still don't know if this is a good idea, but it's a sign of where the world is heading. I find that PMs who can code or engineers with product instincts often perform better.</p>
+<h2 id="tactics-for-rapid-product-feedback">Tactics for Rapid Product Feedback</h2>
+<p>Because engineering is accelerating, having good tactics for getting rapid feedback to shape your perspective on what to build faster helps you move faster overall. Here's a portfolio of tactics for getting product feedback, ranging from faster but less accurate to slower but more accurate:</p>
+<ol>
+<li><p><strong>Look at the product yourself and trust your gut</strong> (fastest) - If you're a subject matter expert, this is surprisingly effective.</p>
+</li>
+<li><p><strong>Ask three friends or teammates for feedback</strong> - Get them to play with your product and provide input.</p>
+</li>
+<li><p><strong>Ask three to ten strangers for feedback</strong> - One of the most important skills I've learned is how to sit in coffee shops or hotel lobbies (places with high foot traffic) and respectfully ask strangers for feedback on what I'm building. This used to be easier when I was less known. I've made numerous product decisions in hotel lobbies or coffee shops with collaborators.</p>
+</li>
+<li><p><strong>Send prototypes to 100 testers</strong> - If you have access to a logical group of users.</p>
+</li>
+<li><p><strong>A/B testing</strong> - Contrary to what many people think, A/B testing is now one of the slowest tactics in my menu because it's just slow to ship and depends on how many users you have.</p>
+</li>
+</ol>
+<p>The missing piece many teams overlook: when I A/B test something, I don't just use the results to pick product A or product B. My team sits down and carefully examines the data to hone our instincts and improve our ability to use the first tactic (gut decisions) to make high-quality decisions faster. We think: "I thought this product name would work better than that product name. Clearly, my mental model of users is wrong." We sit down to update our mental model using all that data to improve the quality of our instincts for making product decisions faster.</p>
+<h2 id="understanding-ai-provides-competitive-advantage">Understanding AI Provides Competitive Advantage</h2>
+<p>I've seen that understanding AI actually makes you move faster, and here's why. With mature technologies like mobile, many people have had smartphones for a long time. We generally know what mobile apps can do, so many people, including non-technical people, have good instincts about mobile app capabilities.</p>
+<p>Similarly, mature job roles like sales, marketing, HR, and legal are all important and difficult, but there are enough experienced practitioners whose knowledge is relatively diffused because these fields haven't changed dramatically in recent months.</p>
+<p>But AI is an emerging technology, so knowledge of how to do AI really well is not widespread. Teams that truly understand AI have an advantage over teams that don't. While you can find someone who knows how to solve HR problems well, if you have an AI problem, knowing how to actually solve it could put you ahead of other companies.</p>
+<p>Questions like "What accuracy can you get for a customer service chatbot?" "Should you use prompting, fine-tuning, or agentic workflows?" "How do you get voice AI to low latency?"—there are many decisions where making the right technical choice lets you solve problems in a couple of days, while making the wrong technical choice could lead you to chase blind alleys for three months.</p>
+<p>I've been surprised that while one bit of information theoretically should at most make you twice as fast, in practice, if you flip the wrong bit, you're not twice as slow—you spend 10 times longer chasing blind alleys. This is why having the right technical judgment really makes startups move so much faster.</p>
+<h2 id="the-building-blocks-of-ai">The Building Blocks of AI</h2>
+<p>Another reason I find staying on top of AI helpful for startups: over the past two years, we've had numerous wonderful generative AI tools and building blocks. This partial list includes prompting workflows, evals, guardrails, RAG (Retrieval-Augmented Generation), voice AI, async programming, ETL, embeddings, fine-tuning, graph databases, and model integration. There's a long and wonderful list of building blocks that can be quickly combined to build software that no one on the planet could have built even a year ago.</p>
+<p>This creates many new opportunities for startups to build new things. When I learned about these building blocks, I have a mental picture: if you own one building block—say you have a basic white building block and know how to prompt—you can build some amazing stuff with that one block. But if you acquire a second building block, like knowing how to build chatbots, you now have white and black Lego bricks and can build something more interesting.</p>
+<p>Add a blue building block, and you can build something even more interesting. Get a few red building blocks, maybe a yellow one—more interesting. Get more building blocks, and very rapidly the number of things you can combine them into grows combinatorially or exponentially. Knowing all these wonderful building blocks lets you combine them in much richer combinations.</p>
+<p>Deep Learning.AI works with leading AI companies worldwide to catalog and teach these building blocks. When I look at the Deep Learning.AI course catalog, whenever I take these courses to learn these building blocks, I feel like I'm acquiring new components that can combine to form combinatorially or exponentially more software applications that were impossible just one or two years ago.</p>
+<h2 id="conclusion-speed-as-a-success-predictor">Conclusion: Speed as a Success Predictor</h2>
+<p>There are many things that matter for startups, not just speed. But when I examine the startups AI Fund is building, I find that the management team's ability to execute at speed is highly correlated with odds of success.</p>
+<p>Here's what we've learned to achieve speed:</p>
 <ul>
-<li>Work on concrete ideas (but make sure they're good concrete ideas)</li>
-<li>Execute rapid engineering with AI coding assistance</li>
-<li>Develop portfolio of tactics for rapid user feedback</li>
-<li>Stay current with AI technology capabilities</li>
+<li><strong>Work on concrete ideas</strong> - They must be good concrete ideas, of course.</li>
+<li><strong>Execute fast with good judgment</strong> - As an executive, I'm judged on both the speed and quality of my decisions. Both matter, but speed absolutely matters.</li>
+<li><strong>Leverage rapid engineering with AI coding assistance</strong> - This makes you go much faster but shifts the bottleneck to getting user feedback on product decisions.</li>
+<li><strong>Maintain a portfolio of tactics for rapid feedback</strong> - If you haven't learned to respectfully approach strangers in coffee shops for feedback, it's not easy, but it's a valuable skill for entrepreneurs.</li>
+<li><strong>Stay on top of the technology</strong> - This knowledge buys you speed.</li>
 </ul>
-<p>As an executive, I'm judged on both the speed and quality of my decisions. Both matter, but speed absolutely matters. The shift to AI coding assistance moves the bottleneck to product decisions and user feedback, making rapid feedback mechanisms critical.</p>
-<p>The amount of new things possible to build far exceeds the number of people skilled enough to build them. At the application layer especially, there's significant white space for new solutions. Focus on building products that people truly want and love, then figure out the rest along the way.</p>
-<p>Thank you very much. I'm happy to take questions.</p>
+<p>The future belongs to those who can make computers do exactly what they want them to do. People who know how to use AI will be much more powerful than people who don't.</p>
+<hr></hr>
+<p><em>This article is based on Andrew Ng's talk at Startup School, covering lessons learned from building AI startups at AI Fund, with particular focus on execution speed and practical tactics for leveraging AI technology in startup development.</em></p>
 
                                 
                                 </section>
@@ -636,7 +689,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Chapter 23: Andrew Ng: Building Faster with AI","level":"1.26","depth":1,"next":{"title":"Chapter 24: François Chollet: How We Get To AGI","level":"1.27","depth":1,"path":"chapters/chapter-24-françois-chollet.md","ref":"chapters/chapter-24-françois-chollet.md","articles":[]},"previous":{"title":"Chapter 22: Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery","level":"1.25","depth":1,"path":"chapters/chapter-22-chelsea-finn.md","ref":"chapters/chapter-22-chelsea-finn.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Future of AI: Insights from Industry Leaders","language":"en","gitbook":"3.2.3","description":"Talks and analyses from AI founders and researchers compiled into a GitBook."},"file":{"path":"chapters/chapter-23-andrew-ng.md","mtime":"2025-09-23T01:21:24.530Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-09-23T01:21:32.480Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Chapter 23: Andrew Ng: Building Faster with AI","level":"1.26","depth":1,"next":{"title":"Chapter 24: François Chollet: How We Get To AGI","level":"1.27","depth":1,"path":"chapters/chapter-24-françois-chollet.md","ref":"chapters/chapter-24-françois-chollet.md","articles":[]},"previous":{"title":"Chapter 22: Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery","level":"1.25","depth":1,"path":"chapters/chapter-22-chelsea-finn.md","ref":"chapters/chapter-22-chelsea-finn.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Future of AI: Insights from Industry Leaders","language":"en","gitbook":"3.2.3","description":"Talks and analyses from AI founders and researchers compiled into a GitBook."},"file":{"path":"chapters/chapter-23-andrew-ng.md","mtime":"2025-09-23T07:16:19.246Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-09-23T07:16:24.379Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
