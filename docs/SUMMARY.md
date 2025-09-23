@@ -28,5 +28,7 @@
 * [Chapter 23: Andrew Ng: Building Faster with AI](chapters/chapter-23-andrew-ng.md)
 * [Chapter 24: François Chollet: How We Get To AGI](chapters/chapter-24-françois-chollet.md)
 * [Chapter 25: Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI](chapters/chapter-25-Fei-Fei-Li.md)
+* [Chapter 26: Sam Altman on OpenAI's Journey: From AGI Dreams to the Future of Intelligence](chapters/chapter-26-Sam-Altman.md)
+* [Chapter 27: Microsoft's AI Strategy: Satya Nadella on Hyperscaling, Quantum Computing, and the Future of Work](chapters/chapter-27-Satya-Nadella.md)
 * [Epilogue: Synthesizing the Future](epilogue-synthesizing-the-future.md)
 * [Expanded Conclusion: The Convergence of Transformation](expanded-conclusion.md)
