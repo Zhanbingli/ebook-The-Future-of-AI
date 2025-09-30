@@ -30,5 +30,6 @@
 * [Chapter 25: Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI](chapters/chapter-25-Fei-Fei-Li.md)
 * [Chapter 26: Sam Altman on OpenAI's Journey: From AGI Dreams to the Future of Intelligence](chapters/chapter-26-Sam-Altman.md)
 * [Chapter 27: Microsoft's AI Strategy: Satya Nadella on Hyperscaling, Quantum Computing, and the Future of Work](chapters/chapter-27-Satya-Nadella.md)
+* [Chapter 28:Chelsea Finn: Building Robots That Can Do Anything](chapters/chapter-28-chelsea-finn.md)
 * [Epilogue: Synthesizing the Future](epilogue-synthesizing-the-future.md)
 * [Expanded Conclusion: The Convergence of Transformation](expanded-conclusion.md)
